@@ -237,6 +237,16 @@ button .fas {
   transition: width 0.6s ease;
 }
 
+.conference-full-message {
+  display: none;
+  padding: 16px 20px;
+  border-radius: 8px;
+  background-color: #e8f4fc;
+  color: #003c71;
+  font-size: 18px;
+  font-weight: 600;
+}
+
 /* Adjust spacing between components */
 .container {
   margin-top: 0;
@@ -256,6 +266,18 @@ button .fas {
 .success-message {
   background-color: #e8f4fc;
   color: #003c71;
+}
+
+#greeting.water {
+  background-color: #e8f7fc;
+}
+
+#greeting.zero {
+  background-color: #ecfdf3;
+}
+
+#greeting.power {
+  background-color: #fff7ed;
 }
 
 /* Counter */
@@ -346,6 +368,46 @@ select {
   font-size: 15px;
   font-weight: 500;
   color: #475569;
+}
+
+/* Attendee list */
+.attendee-list {
+  display: none;
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 2px solid #f1f5f9;
+  text-align: left;
+}
+
+.attendee-list h3 {
+  color: #64748b;
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #475569;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #e2e8f0;
+  text-align: left;
+}
+
+th {
+  background-color: #f8fafc;
+  color: #64748b;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+td {
+  font-size: 15px;
 }
 
 /* Mobile responsive */
